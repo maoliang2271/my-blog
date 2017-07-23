@@ -1,6 +1,7 @@
 # my-blog
 
 > 这是一个 pwa 项目
+> 技术栈(pwa、vue、vue-route、vuex、node)
 
 ## npm 相关命令
 
