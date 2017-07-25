@@ -75,7 +75,6 @@ export default {
             ]
         });
     },
-    
     // async asyncData({ store, route }) {
     //     let type = route.query.type || '';
     //     store.dispatch('blogs/getBlogList', {
