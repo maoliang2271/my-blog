@@ -131,9 +131,9 @@ function render(req, res) {
     }
 
     let context = {
-        title: 'Lavas', // default title
-        url: req.url
+        title: 'my-blog'
     };
+    
     renderer.renderToString(context, (err, html) => {
         if (err) {
             return handleError(err);

@@ -3,7 +3,7 @@
         <!-- sidebar 内容部分 -->
         <div class="app-sidebar-content">
             <!-- 关闭按钮 -->
-            <v-icon class="close-btn" @click.stop="closeAndGo('/')">highlight_off</v-icon>
+            <v-icon class="close-btn" @click.stop="close()">highlight_off</v-icon>
             <!-- 用户信息 -->
             <div v-if="user" class="app-sidebar-user menu-list">
                 <h4>博主信息</h4>

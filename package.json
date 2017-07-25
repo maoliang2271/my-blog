@@ -5,7 +5,7 @@
   "author": "maoliangliang <maoliangliang@baidu.com>",
   "private": true,
   "scripts": {
-    "dev": "rimraf dist && cross-env MICRO_CACHE=false node server.js --debug",
+    "dev": "cross-env MICRO_CACHE=false node server.js --debug",
     "start": "cross-env NODE_ENV=production pm2 start server.js --name=blog -i 2",
     "lint": "fecs ./ --rule --type 'vue,js,css'",
     "build": "rimraf dist && npm run build:client && npm run build:server",

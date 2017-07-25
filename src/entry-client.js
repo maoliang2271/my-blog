@@ -76,7 +76,6 @@ router.beforeResolve((to, from, next) => {
 
     loading.start();
     Promise.all(activated.map(c => {
-
         /**
          * 两种情况下执行asyncData:
          * 1. 非keep-alive组件每次都需要执行
@@ -94,6 +93,7 @@ router.beforeResolve((to, from, next) => {
         loading.finish();
         next();
     }).catch(next);
+    
 });
 
 router.onReady(() => app.$mount('#app'));
