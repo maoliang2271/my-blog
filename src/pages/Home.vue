@@ -44,9 +44,10 @@ export default {
                 pageNum: Math.floor(this.blogList.length / this.pageSize) + 1,
                 pageSize: this.pageSize
             });
-
             this.$refs.infiniteLoading.$emit('$InfiniteLoading:' + this.loadingStatus);
-            
+            // if (this.blogList.length <= 2) {
+            //     this.$refs.infiniteLoading.$el.remove();
+            // }
         }
     },
     watch: {
