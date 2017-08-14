@@ -14,7 +14,7 @@
                 <ul v-if="item.type === 'ul'">
                     <li v-for="(item2, index2) in item.data" :key="index2">{{item2}}</li>
                 </ul>
-                <img v-if="item.type === 'image'" :src="item.data.original.url"/>
+                <img v-if="item.type === 'image'" :src="item.data.big.url"/>
             </div>
         </div>
     </div>

@@ -16,25 +16,10 @@
             "content": [{
                 "type": "image",
                 "data": {
-                    "original": {
-                        "url": "http:\/\/image.techweb.com.cn\/upload\/roll\/2017\/06\/24\/201706244592_2830.jpg",
-                        "width": 651,
-                        "height": 427
-                    },
-                    "original_third": {
-                        "url": "http:\/\/image.techweb.com.cn\/upload\/roll\/2017\/06\/24\/201706244592_2830.jpg",
-                        "width": 651,
-                        "height": 427
-                    },
                     "big": {
                         "url": "https:\/\/t12.baidu.com\/it\/u=1714447403,938115104&fm=173&s=18843C722370798C5C7DC15D0000C0E2&w=640&h=420&img.JPEG",
                         "width": 640,
                         "height": 420
-                    },
-                    "small": {
-                        "url": "https:\/\/t12.baidu.com\/it\/u=1714447403,938115104&fm=173&s=18843C722370798C5C7DC15D0000C0E2&w=640&h=420&img.JPEG",
-                        "width": 480,
-                        "height": 360
                     }
                 }
             }, {
@@ -198,7 +183,7 @@
             }, {
                 "type": "image",
                 "data": {
-                    "original": {
+                    "big": {
                         "url": "/dist/static/img/blog/20170814/1.png"
                     }
                 }
@@ -221,28 +206,28 @@
             }, {
                 "type": "image",
                 "data": {
-                    "original": {
+                    "big": {
                         "url": "/dist/static/img/blog/20170814/2.png"
                     }
                 }
             }, {
                 "type": "image",
                 "data": {
-                    "original": {
+                    "big": {
                         "url": "/dist/static/img/blog/20170814/3.png"
                     }
                 }
             }, {
                 "type": "image",
                 "data": {
-                    "original": {
+                    "big": {
                         "url": "/dist/static/img/blog/20170814/4.png"
                     }
                 }
             }, {
                 "type": "image",
                 "data": {
-                    "original": {
+                    "big": {
                         "url": "/dist/static/img/blog/20170814/5.png"
                     }
                 }
