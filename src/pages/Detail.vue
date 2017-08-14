@@ -10,7 +10,11 @@
         <div class="content">
             <div v-for="(item, index) in blogDetail.content" class="news-item" :key="index">
                 <p v-if="item.type === 'text'">{{ item.data }}</p>
-                <img v-if="item.type === 'image'" :src="item.data.big.url"/>
+                <h6 v-if="item.type === 'h6'">{{ item.data }}</h6>
+                <ul v-if="item.type === 'ul'">
+                    <li v-for="(item2, index2) in item.data" :key="index2">{{item2}}</li>
+                </ul>
+                <img v-if="item.type === 'image'" :src="item.data.original.url"/>
             </div>
         </div>
     </div>
@@ -81,12 +85,20 @@ export default {
             margin-right 10px
 
     .content
-        line-height 27px
+        line-height 22px
         font-size 14px
         word-wrap break-word
         p
             margin-top 10px
-            text-indent 32px
+            text-indent 2em
+            
+        ul
+            list-style none
+            padding 0
+            margin 0 0 10px 0
+        h6
+            font-weight blod
+            font-size 16px        
         img
             width 100%
             height 100%
