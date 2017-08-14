@@ -1,46 +1,51 @@
 {
   "publicPath": "/dist/",
   "all": [
-    "static/js/manifest.d946c6649d058f8d89d5.js.map",
-    "static/js/0.60edc644d51bc61c7363.js",
+    "static/fonts/MaterialIcons-Regular.woff2",
+    "static/js/0.b0ba6d6e16f40dc5589c.js",
     "static/js/2.bb055d01ed36868004c0.js",
-    "static/js/3.2caa82f5c896fd4a18f5.js",
+    "static/js/3.805c1d55866d45abe6f7.js",
     "static/js/vendor.e21d5b741513fc22b7b0.js",
     "static/js/app.d8aba99f0b7008fab52f.js",
-    "static/js/manifest.d946c6649d058f8d89d5.js",
+    "static/js/manifest.15310c9c16f44f2410ca.js",
     "static/css/app.9b4bb273a9c8260465645c82df0dbd6d.css",
-    "static/js/0.60edc644d51bc61c7363.js.map",
+    "static/js/0.b0ba6d6e16f40dc5589c.js.map",
     "static/js/1.f744e9228bacb37dc0ba.js.map",
     "static/js/2.bb055d01ed36868004c0.js.map",
-    "static/js/3.2caa82f5c896fd4a18f5.js.map",
+    "static/js/3.805c1d55866d45abe6f7.js.map",
     "static/js/vendor.e21d5b741513fc22b7b0.js.map",
     "static/js/app.d8aba99f0b7008fab52f.js.map",
     "static/css/app.9b4bb273a9c8260465645c82df0dbd6d.css.map",
-    "static/js/1.f744e9228bacb37dc0ba.js",
-    "static/img/icons/android-chrome-512x512.png",
-    "static/fonts/MaterialIcons-Regular.woff2",
-    "static/fonts/MaterialIcons-Regular.ttf",
-    "static/img/icons/apple-touch-icon-152x152.png",
-    "static/img/icons/apple-touch-icon-120x120.png",
-    "static/img/icons/apple-touch-icon-180x180.png",
-    "static/img/icons/apple-touch-icon-60x60.png",
-    "static/img/icons/android-chrome-192x192.png",
+    "static/js/manifest.15310c9c16f44f2410ca.js.map",
     "static/fonts/MaterialIcons-Regular.woff",
+    "static/js/1.f744e9228bacb37dc0ba.js",
+    "static/img/blog/20170814/1.png",
+    "static/fonts/MaterialIcons-Regular.ttf",
+    "static/img/blog/20170814/2.png",
+    "static/img/icons/android-chrome-192x192.png",
+    "static/img/blog/20170814/3.png",
+    "static/img/blog/20170814/5.png",
+    "static/img/blog/20170814/4.png",
+    "static/img/icons/apple-touch-icon-120x120.png",
+    "static/img/icons/apple-touch-icon-152x152.png",
+    "static/img/icons/android-chrome-512x512.png",
+    "static/img/icons/apple-touch-icon-180x180.png",
     "static/img/icons/favicon-16x16.png",
-    "static/img/icons/favicon-32x32.png",
-    "static/img/icons/favicon.ico",
     "static/img/icons/apple-touch-icon-76x76.png",
-    "static/manifest.json"
+    "static/img/icons/apple-touch-icon-60x60.png",
+    "static/img/icons/favicon-32x32.png",
+    "static/manifest.json",
+    "static/img/icons/favicon.ico"
   ],
   "initial": [
-    "static/js/manifest.d946c6649d058f8d89d5.js",
+    "static/js/manifest.15310c9c16f44f2410ca.js",
     "static/js/vendor.e21d5b741513fc22b7b0.js",
     "static/js/app.d8aba99f0b7008fab52f.js"
   ],
   "async": [
-    "static/js/0.60edc644d51bc61c7363.js",
+    "static/js/0.b0ba6d6e16f40dc5589c.js",
     "static/js/2.bb055d01ed36868004c0.js",
-    "static/js/3.2caa82f5c896fd4a18f5.js",
+    "static/js/3.805c1d55866d45abe6f7.js",
     "static/js/1.f744e9228bacb37dc0ba.js"
   ],
   "modules": {
@@ -1913,7 +1918,7 @@
       10
     ],
     "410a8487": [
-      15,
+      17,
       9
     ],
     "825e217c": [
@@ -1929,7 +1934,7 @@
       10
     ],
     "5b868dce": [
-      15,
+      17,
       9
     ],
     "c45a0104": [
@@ -1945,7 +1950,7 @@
       8
     ],
     "0e05f8f1": [
-      15,
+      17,
       9
     ],
     "336b11df": [
@@ -1965,7 +1970,7 @@
       8
     ],
     "a84b602c": [
-      15,
+      17,
       9
     ],
     "d52ff950": [
@@ -1989,7 +1994,7 @@
       8
     ],
     "025dc216": [
-      15,
+      17,
       9
     ],
     "a1aa4296": [
